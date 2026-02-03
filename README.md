@@ -1,3 +1,13 @@
+# Changes : 
+
++ Added command line arguments for Clones Manager Window ( similar to what the hub does ) - command will be appended to the editor once launched from the editor window  
+
+```
+https://github.com/nukadelic/ParrelSync-command-line-args.git?path=/ParrelSync
+```
+
+<img width="418" height="224" alt="image" src="https://github.com/user-attachments/assets/fc17528f-081a-4099-b6b7-8d54657dd2f0" />
+
 # ParrelSync 
 [![Release](https://img.shields.io/github/v/release/VeriorPies/ParrelSync)](https://github.com/VeriorPies/ParrelSync/releases) [![Documentation](https://img.shields.io/badge/documentation-brightgreen.svg)](https://github.com/VeriorPies/ParrelSync/wiki) [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/VeriorPies/ParrelSync/blob/master/LICENSE.md) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](https://github.com/VeriorPies/ParrelSync/pulls) [![Chats](https://img.shields.io/discord/710688100996743200)](https://discord.gg/TmQk2qG)  
 
