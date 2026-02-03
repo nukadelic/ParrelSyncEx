@@ -85,6 +85,21 @@ namespace ParrelSync
             {
                 if (isCloneCreated)
                 {
+                    GUILayout.BeginVertical();
+
+                    EditorGUILayout.LabelField("Command Line Arguments");
+
+                    var cmd_args = EditorPrefs.GetString("ParrelSyncCommandLineArgs");
+
+                    string new_cmd_args = EditorGUILayout.TextField( cmd_args );
+
+                    if (cmd_args != new_cmd_args)
+                    {
+                        EditorPrefs.SetString("ParrelSyncCommandLineArgs", new_cmd_args);
+                    }
+
+                    GUILayout.EndVertical();
+
                     GUILayout.BeginVertical("HelpBox");
                     GUILayout.Label("Clones of this Project");
 

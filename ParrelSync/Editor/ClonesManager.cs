@@ -179,8 +179,10 @@ namespace ParrelSync
             //same "compiling environment" as the original project
             ValidateCopiedFoldersIntegrity.ValidateFolder(projectPath, GetOriginalProjectPath(), "Packages");
 
+            string cmd_args = EditorPrefs.GetString("ParrelSyncCommandLineArgs");
+
             string fileName = GetApplicationPath();
-            string args = "-projectPath \"" + projectPath + "\"";
+            string args = cmd_args + " -projectPath \"" + projectPath + "\"";
             Debug.Log("Opening project \"" + fileName + " " + args + "\"");
             ClonesManager.StartHiddenConsoleProcess(fileName, args);
         }
