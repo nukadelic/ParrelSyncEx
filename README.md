@@ -3,7 +3,7 @@
 + Added command line arguments for Clones Manager Window ( similar to what the hub does ) - command will be appended to the editor once launched from the editor window  
 
 ```
-https://github.com/nukadelic/ParrelSync-command-line-args.git?path=/ParrelSync
+https://github.com/nukadelic/ParrelSyncEx.git?path=/ParrelSync
 ```
 
 <img width="418" height="224" alt="image" src="https://github.com/user-attachments/assets/fc17528f-081a-4099-b6b7-8d54657dd2f0" />
